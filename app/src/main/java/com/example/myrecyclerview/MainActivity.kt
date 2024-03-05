@@ -1,5 +1,6 @@
 package com.example.myrecyclerview
 
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,7 +15,6 @@ import com.example.myrecyclerview.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var rvHeroes: RecyclerView
     private val list = ArrayList<Hero>()
-
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         rvHeroes = findViewById(R.id.rv_heroes)
         rvHeroes.setHasFixedSize(true)
 
-        list.addAll(getListHeroes())
+        list.addAll(getListHeroes(this))
         showRecyclerList()
 
     }
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-     fun getListHeroes(): ArrayList<Hero> {
+     fun getListHeroes(context: Context): ArrayList<Hero> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
@@ -68,13 +68,14 @@ class MainActivity : AppCompatActivity() {
             override fun onItemClicked(heroId: Int) {
                 val intent = Intent(this@MainActivity, DetailActivity::class.java)
                 intent.putExtra("HERO_ID", heroId)
+                intent.putParcelableArrayListExtra("HERO_LIST", list)
                 startActivity(intent)
             }
         })
     }
 
-
     private fun showSelectedHero(hero: Hero) {
         Toast.makeText(this, "Kamu memilih " + hero.name, Toast.LENGTH_SHORT).show()
     }
+
 }
