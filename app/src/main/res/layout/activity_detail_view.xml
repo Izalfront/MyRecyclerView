@@ -19,20 +19,8 @@
                 android:layout_height="wrap_content"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/pixel_google" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@android:color/white"
-                android:layout_gravity="bottom"
-                android:layout_marginStart="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="#4D000000"
-                android:drawablePadding="4dp"
-                android:gravity="center_vertical"
-                android:padding="8dp"
-                android:text="@string/dummy_photos"
-                android:drawableStart="@drawable/ic_collections_white_18dp" />
+                android:src="@drawable/samsung_m34" />
+
         </FrameLayout>
 
         <TextView
@@ -42,7 +30,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/dummy_value"
+            android:text="Samsung Galaxy M31"
             android:textSize="32sp" />
         <TextView
             android:layout_width="match_parent"
@@ -50,7 +38,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
-            android:text="@string/title"
+            android:text="Spesifikasi :"
             android:textSize="18sp"
             android:textStyle="bold" />
         <TextView
@@ -60,16 +48,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:lineSpacingMultiplier="1"
-            android:text="@string/content_text" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="8dp"
-            android:text="@string/specification" />
+            android:text="Samsung Galaxy M31" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -92,145 +71,34 @@
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
                     android:layout_weight="1"
-                    android:text="lorem" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
-                    android:text="lorem" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
-                    android:text="lorem" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
-                    android:text="lorem" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
-                    android:text="yrloerm" />
-            </TableRow>
-        </TableLayout><TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="12sp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="8dp"
-        android:text="lorem" />
-
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp">
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_marginEnd="16dp"
-                    android:text="lorem" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:layout_weight="1"
-                    android:text="lorem" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
-                    android:text="lorem" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
-                    android:text="lorem" />
-            </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="16dp"
-                    android:textSize="14sp"
-                    android:text="lorem" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:textSize="14sp"
-                    android:text="lorem" />
+                    android:text=" 6.7 FHD+ Display \n50MP Camera \nOcta core processor" />
             </TableRow>
         </TableLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="12sp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="8dp"
-            android:text="lorem ipsum" />
-
-        <RelativeLayout
+        <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp">
-            <ImageView
-                android:id="@+id/profile_image"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="16dp"
-                android:src="@drawable/ahmad_dahlan" />
-            <TextView
+            <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_toEndOf="@+id/profile_image"
-                android:text="Samsung M31" />
-        </RelativeLayout>
-        <Button
-            android:text="mantap"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp" />
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Deskripsi" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_weight="1"
+                    android:text="@string/desc_hp" />
+            </TableRow>
+        </TableLayout>
+
     </LinearLayout>
 </ScrollView>
