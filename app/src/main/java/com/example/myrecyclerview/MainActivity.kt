@@ -1,5 +1,6 @@
 package com.example.myrecyclerview
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         list.addAll(getListHeroes())
         showRecyclerList()
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -45,13 +47,13 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun getListHeroes(): ArrayList<Hero> {
+     fun getListHeroes(): ArrayList<Hero> {
         val dataName = resources.getStringArray(R.array.data_name)
         val dataDescription = resources.getStringArray(R.array.data_description)
         val dataPhoto = resources.getStringArray(R.array.data_photo)
         val listHero = ArrayList<Hero>()
         for (i in dataName.indices) {
-            val hero = Hero(dataName[i], dataDescription[i], dataPhoto[i])
+            val hero = Hero(i, dataName[i], dataDescription[i], dataPhoto[i])
             listHero.add(hero)
         }
         return listHero
@@ -63,11 +65,14 @@ class MainActivity : AppCompatActivity() {
         rvHeroes.adapter = listHeroAdapter
 
         listHeroAdapter.setOnItemClickCallback(object : ListHeroAdapter.OnItemClickCallback {
-            override fun onItemClicked(data: Hero) {
-                showSelectedHero(data)
+            override fun onItemClicked(heroId: Int) {
+                val intent = Intent(this@MainActivity, DetailActivity::class.java)
+                intent.putExtra("HERO_ID", heroId)
+                startActivity(intent)
             }
         })
     }
+
 
     private fun showSelectedHero(hero: Hero) {
         Toast.makeText(this, "Kamu memilih " + hero.name, Toast.LENGTH_SHORT).show()
