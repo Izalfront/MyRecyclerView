@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 
 class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,7 +34,11 @@ class DetailActivity : AppCompatActivity() {
         return list.find { it.id == heroId }
     }
     private fun populateData(hero: Hero) {
-        findViewById<ImageView>(R.id.img_detail_photo).setImageResource(R.drawable.samsung_m34)
+        val imgDetailPhoto = findViewById<ImageView>(R.id.img_detail_photo)
+        Glide.with(this)
+            .load(hero.photo)
+            .into(imgDetailPhoto)
+
         findViewById<TextView>(R.id.tv_detail_name).text = hero.name
         findViewById<TextView>(R.id.tv_detail_specification).text = "Spesifikasi: " + hero.description
         findViewById<TextView>(R.id.tv_detail_description).text = hero.description

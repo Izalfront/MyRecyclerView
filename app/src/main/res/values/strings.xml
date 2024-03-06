@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyRecyclerView</string>
+    <string name="app_names">MyRecyclerView</string>
     <string name="heroes_name">Nama Pahlawan</string>
     <string name="description">Deskripsi</string>
     <string name="list">List</string>
@@ -14,6 +14,7 @@
         <item>Soedirman</item>
         <item>Soekarno</item>
         <item>Soepomo</item>
+        <item>Soepomo</item>
     </string-array>
     <string-array name="data_description">
         <item>Salah seorang ulama dan khatib terkemuka di Masjid Besar Kasultanan Yogyakarta pada masa itu, dan ibu dari K.H. Ahmad Dahlan adalah puteri dari H. Ibrahim yang juga menjabat penghulu Kesultanan Ngayogyakarta Hadiningrat pada masa itu. KH. Ahmad Dahlan telah mempelopori kebangkitan ummat Islam untuk menyadari nasibnya sebagai bangsa terjajah yang masih harus belajar dan berbuat. </item>
@@ -25,18 +26,22 @@
         <item>Jenderal Besar Raden Soedirman (EYD: Sudirman; lahir 24 Januari 1916 – meninggal 29 Januari 1950 pada umur 34 tahun) adalah seorang perwira tinggi Indonesia pada masa Revolusi Nasional Indonesia. Menjadi panglima besar Tentara Nasional Indonesia pertama, ia secara luas terus dihormati di Indonesia. Terlahir dari pasangan rakyat biasa di Purbalingga, Hindia Belanda, Soedirman diadopsi oleh pamannya yang seorang priyayi. Setelah keluarganya pindah ke Cilacap pada tahun 1916, Soedirman tumbuh menjadi seorang siswa rajin; ia sangat aktif dalam kegiatan ekstrakurikuler, termasuk mengikuti program kepanduan yang dijalankan oleh organisasi Islam Muhammadiyah. Saat di sekolah menengah, Soedirman mulai menunjukkan kemampuannya dalam memimpin dan berorganisasi, dan dihormati oleh masyarakat karena ketaatannya pada Islam. Setelah berhenti kuliah keguruan, pada 1936 ia mulai bekerja sebagai seorang guru, dan kemudian menjadi kepala sekolah, di sekolah dasar Muhammadiyah; ia juga aktif dalam kegiatan Muhammadiyah lainnya dan menjadi pemimpin Kelompok Pemuda Muhammadiyah pada tahun 1937. Setelah Jepang menduduki Hindia Belanda pada 1942, Soedirman tetap mengajar. Pada tahun 1944, ia bergabung dengan tentara Pembela Tanah Air (PETA) yang disponsori Jepang, menjabat sebagai komandan batalion di Banyumas. Selama menjabat, Soedirman bersama rekannya sesama prajurit melakukan pemberontakan, namun kemudian diasingkan ke Bogor.</item>
         <item>Dr.(H.C.) Ir. H. Soekarno (ER, EYD: Sukarno, nama lahir: Koesno Sosrodihardjo) (lahir di Surabaya, Jawa Timur, 6 Juni 1901 – meninggal di Jakarta, 21 Juni 1970 pada umur 69 tahun) adalah Presiden pertama Republik Indonesia yang menjabat pada periode 1945–1967. Ia memainkan peranan penting dalam memerdekakan bangsa Indonesia dari penjajahan Belanda. Ia adalah Proklamator Kemerdekaan Indonesia (bersama dengan Mohammad Hatta) yang terjadi pada tanggal 17 Agustus 1945. Soekarno adalah yang pertama kali mencetuskan konsep mengenai Pancasila sebagai dasar negara Indonesia dan ia sendiri yang menamainya.</item>
         <item>Prof. Mr. Dr. Soepomo (Ejaan Soewandi: Supomo; lahir di Sukoharjo, Jawa Tengah, 22 Januari 1903 – meninggal di Jakarta, 12 September 1958 pada umur 55 tahun) adalah seorang pahlawan nasional Indonesia. Soepomo dikenal sebagai arsitek Undang-undang Dasar 1945, bersama dengan Muhammad Yamin dan Soekarno.</item>
+        <item>Samsung Galaxy M34 5G adalah ponsel cerdas dengan spesifikasi yang tangguh. Ponsel ini dilengkapi dengan prosesor Octa-Core berkecepatan 2.4GHz dan 1.9GHz, serta layar PLS LCD berukuran 6.7 inci dengan resolusi FHD+ 1080 x 2400 piksel. Kamera belakangnya memiliki resolusi 50.0 MP + 2.0 MP + 2.0 MP dengan fitur seperti autofokus dan zoom digital hingga 10x. Sedangkan kamera depannya memiliki resolusi 13.0 MP.
+Dengan memori RAM sebesar 6GB dan penyimpanan internal sebesar 128GB, Samsung Galaxy M34 5G memberikan performa yang responsif. Ponsel ini juga mendukung penyimpanan eksternal menggunakan kartu MicroSD hingga 1TB. Desainnya yang elegan dengan dimensi 168.0 x 77.8 x 8.8 mm dan bobot 194 gram membuatnya nyaman digunakan.
+Samsung Galaxy M34 5G dilengkapi dengan berbagai fitur konektivitas, seperti dual-SIM, USB Type-C, dan teknologi jaringan 4G LTE. Selain itu, ponsel ini juga mendukung berbagai teknologi lokasi seperti GPS, Glonass, Beidou, Galileo, dan QZSS.
+Dengan baterai berkapasitas</item>
     </string-array>
     <string-array name="data_photo">
         <item>https://images.samsung.com/is/image/samsung/id-feature-versatile-quad-camera-to-document-your-life-216251136</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/3/3f/Ahmad_Yani.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/e/ed/Bung_Tomo.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/b/be/Col_Gatot_Subroto%2C_Kenang-Kenangan_Pada_Panglima_Besar_Letnan_Djenderal_Soedirman%2C_p27.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/3/3a/Ki_Hadjar_Dewantara_Mimbar_Umum_18_October_1949_p2.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/VP_Hatta.jpg/330px-VP_Hatta.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Sudirman.jpg/486px-Sudirman.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/330px-Presiden_Sukarno.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/a/a6/Supomo.jpg</item>
-        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/TanMalaka_DariPendjara_ed3.jpg/330px-TanMalaka_DariPendjara_ed3.jpg</item>
+        <item>https://i.ytimg.com/vi/r-S5LSHcNkY/maxresdefault.jpg</item>
+        <item>https://images.tokopedia.net/img/cache/700/OJWluG/2021/12/10/22212f0a-bf4e-4bb5-b912-26bbcb012b14.jpg</item>
+        <item>https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/03/31/Samsung-Galaxy-M14-5G-1830854254.jpg</item>
+        <item>https://asset.kompas.com/crops/DpKN6AqBZg8jl05pMjEb-HSRmb8=/0x0:1317x878/750x500/data/photo/2022/04/12/62553e53b2590.jpg</item>
+        <item>https://y6a2n7m3.rocketcdn.me/wp-content/uploads/2022/06/DSC09993-Copy.jpg</item>
+        <item>https://cloud.jpnn.com/photo/arsip/watermark/2021/01/22/render-galaxy-m62-foto-notebookcheck-17.jpg</item>
+        <item>https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2022/12/15/4015302571.jpg</item>
+        <item>https://teknonia.com/wp-content/uploads/2021/02/Galaxy-M02.jpg</item>
+        <item>https://asset-2.tstatic.net/tribunnewswiki/foto/bank/images/Salah-satu-warna-Galaxy-M12.jpg</item>
     </string-array>
     <!--    deksrispsi sespesifikasi hp -->
     <string name="desc_hp">Samsung Galaxy M34 5G adalah ponsel cerdas dengan spesifikasi yang tangguh. Ponsel ini dilengkapi dengan prosesor Octa-Core berkecepatan 2.4GHz dan 1.9GHz, serta layar PLS LCD berukuran 6.7 inci dengan resolusi FHD+ 1080 x 2400 piksel. Kamera belakangnya memiliki resolusi 50.0 MP + 2.0 MP + 2.0 MP dengan fitur seperti autofokus dan zoom digital hingga 10x. Sedangkan kamera depannya memiliki resolusi 13.0 MP.
